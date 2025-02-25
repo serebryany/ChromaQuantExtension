@@ -1,0 +1,7 @@
+#A File Listing filenames for git to ignore.
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore macOS system files
+.DS_Store
