@@ -1,8 +1,3 @@
-# Guide (user-friendly):
-# https://packaging.python.org/en/latest/guides/writing-pyproject-toml/
-
-# Specification (technical, formal):
-# https://packaging.python.org/en/latest/specifications/pyproject-toml/
 
 
 # Choosing a build backend:
@@ -14,7 +9,7 @@ requires = ["setuptools"] # REQUIRED if [build-system] table is used
 build-backend = "setuptools.build_meta" # If not defined, then legacy behavior can happen.
 
 
-[ChromaQuantExtension]
+[project]
 # This is the name of your project. The first time you publish this
 # package, this name will be registered for you. It will determine how
 # users can install this project, e.g.:
