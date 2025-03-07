@@ -1,0 +1,45 @@
+Metadata-Version: 2.2
+Name: ChromaQuantExtension
+Version: 1.0.0
+Summary: An extension for ChromaQuant
+Author-email: Enisha Sehgal <esehgal@uw.edu>, Franklin Guevara <fjguevar@uw.edu>, Tata Serebryany <tataser@uw.edu>, Mariya Hryb <mhryb@uw.edu>
+Maintainer-email: Enisha Sehgal <esehgal@uw.edu>, Franklin Guevara <fjguevar@uw.edu>, Tata Serebryany <tataser@uw.edu>, Mariya Hryb <mhryb@uw.edu>
+Project-URL: Homepage, https://github.com/pypa/sampleproject
+Project-URL: Bug Reports, https://github.com/pypa/sampleproject/issues
+Project-URL: Funding, https://donate.pypi.org
+Project-URL: Say Thanks!, http://saythanks.io/to/example
+Project-URL: Source, https://github.com/pypa/sampleproject/
+Keywords: sample,setuptools,development
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas~=2.2.2
+Requires-Dist: molmass~=2024.5.24
+Requires-Dist: numpy~=1.26.4
+Requires-Dist: chemformula~=1.3.1
+Requires-Dist: scipy~=1.13.1
+Requires-Dist: ttkthemes~=3.2.2
+Requires-Dist: pillow~=10.3.0
+Requires-Dist: plotly~=5.22.0
+Requires-Dist: pubchempy~=1.0.4
+Requires-Dist: rdkit~=2024.3.5
+Requires-Dist: XlsxWriter~=3.2.0
+Requires-Dist: openpyxl~=3.1.5
+Provides-Extra: dev
+Requires-Dist: check-manifest; extra == "dev"
+Provides-Extra: test
+Requires-Dist: coverage; extra == "test"
+
+# ChromaQuantExtension
+Extension and Analysis of ChromaQuant by JnliaH. Created for CHEME 546 Winter 2025.
