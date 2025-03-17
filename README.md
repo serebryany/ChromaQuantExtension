@@ -7,19 +7,19 @@ ChromaQuantExtension is a software tool designed to empirically assess the accur
 
 The primary goals of ChromaQuantExtension are:
 
-- *Accuracy Evaluation*: Comparing the output of ChromaQuant against manually calculated product composition data to measure accuracy.
+- **Accuracy Evaluation**: Comparing the output of ChromaQuant against manually calculated product composition data to measure accuracy.
 
-- *Machine Learning Integration*: Developing an ML-based alternative to ChromaQuant to automate product composition prediction.
+- **Machine Learning Integration**: Developing an ML-based alternative to ChromaQuant to automate product composition prediction.
 
 ### Features
 
-Automated Comparison: Takes ChromaQuant-generated CSV outputs and manually curated product composition sheets, performing statistical analysis on the accuracy of ChromaQuant.
+- **Automated Comparison**: Takes ChromaQuant-generated CSV outputs and manually curated product composition sheets, performing statistical analysis on the accuracy of ChromaQuant.
 
-Customizable Metrics: Users can define their own evaluation metrics to assess ChromaQuant's performance.
+- **Customizable Metrics**: Users can define their own evaluation metrics to assess ChromaQuant's performance.
 
-Machine Learning Model Training: Enables users to train models for predicting product composition based on GC data.
+- **Machine Learning Model Training**: Enables users to train models for predicting product composition based on GC data.
 
-User-Friendly Interface: Simplifies workflow for both experimental chemists and computational scientists.
+- **User-Friendly Interface**: Simplifies workflow for both experimental chemists and computational scientists.
 
 ### Developers:
 - Franklin Guevara 
