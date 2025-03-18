@@ -9,7 +9,7 @@ The primary goals of ChromaQuantExtension are:
 
 - **Accuracy Evaluation**: Comparing the output of ChromaQuant against manually calculated product composition data to measure accuracy.
 
-- **Machine Learning Integration**: Developing an ML-based alternative to ChromaQuant to automate product composition prediction.
+- **Machine Learning Integration**: Developing an ML-based extension to ChromaQuant to automate product composition prediction.
 
 ### Features
 
